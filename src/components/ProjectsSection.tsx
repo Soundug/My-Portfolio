@@ -89,10 +89,10 @@ const ProjectsSection = () => {
     },
     {
       title: "Frontend Portfolio Website",
-      description: "A wesbite based resume that showcases my education, experience and projects.",
+      description: "A website-based resume that showcases my education, experience and projects.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
       tags: ["HTML/Tailwind CSS", "React.js", "TypeScript", "UI/UX"],
-      github: "https://github.com/Soundug/Portfolio-Website-Resume",
+      github: "https://github.com/Soundug/My-Portfolio",
     },
     {
       title: "E-commerce Webscraper",
