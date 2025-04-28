@@ -14,7 +14,7 @@ const NavigationMenu = React.forwardRef<
   <NavigationMenuPrimitive.Root
     ref={ref}
     className={cn(
-      "relative z-10 flex max-w-max flex-1 items-center justify-center",
+      "relative z-10 flex max-w-max flex-1 items-center justify-center dark:bg-gray-900 text-gray-900 dark:text-white",
       className
     )}
     {...props}
@@ -32,7 +32,7 @@ const NavigationMenuList = React.forwardRef<
   <NavigationMenuPrimitive.List
     ref={ref}
     className={cn(
-      "group flex flex-1 list-none items-center justify-center space-x-1",
+      "group flex flex-1 list-none items-center justify-center space-x-1 dark:bg-gray-900 text-gray-900 dark:text-white",
       className
     )}
     {...props}
@@ -106,12 +106,12 @@ const NavigationMenuIndicator = React.forwardRef<
   <NavigationMenuPrimitive.Indicator
     ref={ref}
     className={cn(
-      "top-full z-[1] flex h-1.5 items-end justify-center overflow-hidden data-[state=visible]:animate-in data-[state=hidden]:animate-out data-[state=hidden]:fade-out data-[state=visible]:fade-in",
+      "top-full z-[1] flex h-1.5 items-end justify-center overflow-hidden data-[state=visible]:animate-in data-[state=hidden]:animate-out data-[state=hidden]:fade-out data-[state=visible]:fade-in dark:bg-gray-900 text-gray-900 dark:text-white",
       className
     )}
     {...props}
   >
-    <div className="relative top-[60%] h-2 w-2 rotate-45 rounded-tl-sm bg-border shadow-md" />
+    <div className="relative top-[60%] h-2 w-2 rotate-45 rounded-tl-sm bg-border shadow-md dark:bg-gray-900 text-gray-900 dark:text-white" />
   </NavigationMenuPrimitive.Indicator>
 ))
 NavigationMenuIndicator.displayName =

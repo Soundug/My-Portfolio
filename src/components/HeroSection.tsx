@@ -30,7 +30,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" ref={heroRef} className="relative min-h-screen flex items-center justify-center pt-16 pb-20 overflow-hidden bg-gradient-to-br from-blue-50 to-white">
+    <section id="home" ref={heroRef} className="relative min-h-screen flex items-center justify-center pt-16 pb-20 overflow-hidden bg-gradient-to-br from-blue-50 to-white dark:bg-gray-900 text-gray-900 dark:text-white">
       <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-1/4 -left-20 w-64 h-64 bg-blue-100 rounded-full opacity-50 blur-3xl"></div>
         <div className="absolute bottom-1/3 -right-20 w-80 h-80 bg-indigo-100 rounded-full opacity-60 blur-3xl"></div>
@@ -61,14 +61,14 @@ const HeroSection = () => {
               <Button 
                 size="lg" 
                 variant="outline"
-                className="border-blue-600 text-blue-600 hover:bg-blue-50"
+                className="border-blue-600 text-blue-600 hover:bg-blue-50 dark:bg-gray-900 text-gray-900 dark:text-white"
                 onClick={handleExploreClick}
               >
                 Explore My Work
               </Button>
             </div>
             
-            <div className="flex gap-4 pt-4 reveal">
+            <div className="flex gap-4 pt-4 reveal dark:bg-gray-900 text-gray-900 dark:text-white">
               <a href="https://github.com/Soundug" target="_blank" rel="noopener noreferrer" className="p-2 bg-white rounded-full shadow-md hover:shadow-lg transition-all hover:scale-110">
                 <Github size={20} className="text-gray-700" />
               </a>
@@ -98,7 +98,7 @@ const HeroSection = () => {
           className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center cursor-pointer hover:opacity-80 transition-opacity z-20"
           aria-label="Scroll Down"
         >
-          <p className="text-sm text-gray-500 mb-2">Scroll Down</p>
+          <p className="text-sm text-gray-500 mb-2 dark:bg-gray-900 text-gray-900 dark:text-white">Scroll Down</p>
           <div className="p-2 rounded-full bg-blue-100 hover:bg-blue-200 transition-colors animate-bounce">
             <ArrowDown size={20} className="text-blue-500" />
           </div>

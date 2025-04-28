@@ -12,17 +12,17 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ title, description, image, tags, github, liveDemo }: ProjectCardProps) => (
-  <div className="project-card reveal">
+  <div className="project-card reveal dark:bg-gray-900 text-gray-900 dark:text-white">
     <img 
       src={image} 
       alt={title} 
       className="w-full aspect-video object-cover"
     />
-    <div className="project-overlay">
+    <div className="project-overlay dark:bg-gray-900 text-gray-900 dark:text-white">
       <h3 className="text-xl font-bold mb-3">{title}</h3>
       <p className="text-gray-200 mb-4 text-center">{description}</p>
       
-      <div className="flex flex-wrap justify-center gap-2 mb-6">
+      <div className="flex flex-wrap justify-center gap-2 mb-6 dark:bg-gray-900 text-gray-900 dark:text-white">
         {tags.map((tag, index) => (
           <span 
             key={index} 
@@ -33,7 +33,7 @@ const ProjectCard = ({ title, description, image, tags, github, liveDemo }: Proj
         ))}
       </div>
       
-      <div className="flex gap-4">
+      <div className="flex gap-4 dark:bg-gray-900 text-gray-900 dark:text-white">
         {github && (
           <Button size="sm" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10">
             <a href={github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
@@ -44,7 +44,7 @@ const ProjectCard = ({ title, description, image, tags, github, liveDemo }: Proj
         )}
         
         {liveDemo && (
-          <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white">
+          <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white dark:bg-gray-900 text-gray-900 dark:text-white">
             <a href={liveDemo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
               <ExternalLink size={16} />
               Live Demo
@@ -104,7 +104,7 @@ const ProjectsSection = () => {
   ];
 
   return (
-    <section id="projects" ref={sectionRef} className="section-padding bg-white">
+    <section id="projects" ref={sectionRef} className="section-padding bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold mb-4 reveal">Featured Projects</h2>
@@ -115,7 +115,7 @@ const ProjectsSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 dark:bg-gray-900 text-gray-900 dark:text-white">
           {projects.map((project, index) => (
             <ProjectCard
               key={index}
