@@ -1,58 +1,23 @@
-# Welcome to your Lovable project
+# My Portfolio Website
+This is my personal portfolio website showcasing my work, projects, and skills in frontend development, 3D visualization, and software engineering.
 
-## Project info
+The website is designed to serve as an interactive and visual extension of my resume and to reflect my journey as a passionate and evolving tech professional.
 
-**URL**: https://lovable.dev/projects/b1075a04-aeb5-4b59-bc0b-da49bc925af5
+**Features**
+- Responsive Design
+- Built using modern frontend technologies
+- Animated and interactive sections
+- Project showcase with direct GitHub links
+- Clean UI/UX for professional presentation
 
-## How can I edit this code?
+**Technologies Used**
 
-There are several ways of editing your application.
+- HTML5
+- CSS3 (TailwindCSS Framework)
+- JavaScript (React.js)
+- Hosting on Cloudflare Pages
 
-**Use your preferred IDE**
+## Live Website
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in the repository.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Visit my portfolio live here:
+https://soundaryagoski.pages.dev/
