@@ -40,7 +40,7 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-0 items-center">
           <div className="space-y-6 reveal">
             <p className="text-blue-600 font-medium mb-2 reveal">Hello, my name is</p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 reveal">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl mb-4 reveal">
               Soundarya <span className="gradient-text">Goski</span>
             </h1>
             <h2 className="text-2xl sm:text-3xl font-medium text-gray-700 mb-6 reveal">
