@@ -112,12 +112,12 @@ html {
   @apply relative overflow-hidden rounded-lg shadow-md bg-white transition-all duration-300;
 }
 
-.project-card:hover .project-overlay {
-  @apply opacity-100;
+.project-card:hover {
+  @apply scale-105;
 }
 
 .project-overlay {
-  @apply absolute inset-0 bg-black/70 flex flex-col justify-center items-center p-6 opacity-0 transition-opacity duration-300 text-white;
+  @apply absolute inset-0 bg-black/70 flex flex-col justify-center items-center p-6 opacity-100 transition-opacity duration-300 text-white;
 }
 
 .nav-link {
