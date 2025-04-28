@@ -3,6 +3,9 @@ This is my personal portfolio website showcasing my work, projects, and skills i
 
 The website is designed to serve as an interactive and visual extension of my resume and to reflect my journey as a passionate and evolving tech professional.
 
+## Here’s a quick preview of my live portfolio website.
+![Portfolio Demo](./Animation.gif)
+
 **Features**
 - Responsive Design
 - Built using modern frontend technologies
