@@ -26,7 +26,7 @@ const AboutSection = () => {
   }, []);
 
   return (
-    <section id="about" ref={sectionRef} className="section-padding bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+    <section id="about" ref={sectionRef} className="section-padding bg-white">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold mb-4 reveal">About Me</h2>
@@ -58,28 +58,28 @@ const AboutSection = () => {
             </div>
             
             <div className="grid grid-cols-2 gap-6 mt-8 reveal">
-              <Card className="p-4 bg-blue-50 border-none dark:bg-gray-900 text-gray-900 dark:text-white">
+              <Card className="p-4 bg-blue-50 border-none">
                 <div className="flex items-center gap-2 mb-2">
                   <MapPin size={16} className="text-blue-600" />
                   <h4 className="font-bold">Location</h4>
                 </div>
                 <p className="text-gray-600">Vienna, Austria</p>
               </Card>
-              <Card className="p-4 bg-blue-50 border-none dark:bg-gray-900 text-gray-900 dark:text-white">
+              <Card className="p-4 bg-blue-50 border-none">
                 <div className="flex items-center gap-2 mb-2">
                   <Mail size={16} className="text-blue-600" />
                   <h4 className="font-bold">Email</h4>
                 </div>
                 <p className="text-gray-600 truncate">soundaryagsk@gmail.com</p>
               </Card>
-              <Card className="p-4 bg-blue-50 border-none dark:bg-gray-900 text-gray-900 dark:text-white">
+              <Card className="p-4 bg-blue-50 border-none">
                 <div className="flex items-center gap-2 mb-2">
                   <School size={16} className="text-blue-600" />
                   <h4 className="font-bold">Education</h4>
                 </div>
                 <p className="text-gray-600">MSc Visual Computing, TU Wien</p>
               </Card>
-              <Card className="p-4 bg-blue-50 border-none dark:bg-gray-900 text-gray-900 dark:text-white">
+              <Card className="p-4 bg-blue-50 border-none">
                 <div className="flex items-center gap-2 mb-2">
                   <Languages size={16} className="text-blue-600" />
                   <h4 className="font-bold">Languages</h4>
