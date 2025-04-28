@@ -65,7 +65,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" ref={sectionRef} className="section-padding bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+    <section id="contact" ref={sectionRef} className="section-padding bg-white">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold mb-4 reveal">Get In Touch</h2>
@@ -175,7 +175,7 @@ const ContactSection = () => {
               
               <Button 
                 type="submit" 
-                className="w-full bg-blue-600 hover:bg-blue-700 dark:bg-gray-900 text-gray-900 dark:text-white" 
+                className="w-full bg-blue-600 hover:bg-blue-700" 
                 disabled={isSubmitting}
               >
                 {isSubmitting ? "Sending..." : (

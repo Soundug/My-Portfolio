@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from "react";
 import { Briefcase, Calendar } from "lucide-react";
 
@@ -11,21 +12,21 @@ interface ExperienceItemProps {
 
 const ExperienceItem = ({ title, company, period, description, index }: ExperienceItemProps) => (
   <div className={`reveal ${index % 2 === 0 ? 'lg:translate-x-12' : 'lg:-translate-x-12'}`}>
-    <div className="bg-white rounded-lg shadow-md p-6 relative border-t-4 border-blue-500 dark:bg-gray-900 text-gray-900 dark:text-white">
+    <div className="bg-white rounded-lg shadow-md p-6 relative border-t-4 border-blue-500">
       <div className="absolute -top-10 left-6 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center shadow-lg">
         <Briefcase size={24} className="text-white" />
       </div>
       
-      <div className="mt-4 dark:bg-gray-900 text-gray-900 dark:text-white">
+      <div className="mt-4">
         <div className="flex items-center text-gray-500 mb-2">
           <Calendar size={16} className="mr-1" />
           <span className="text-sm">{period}</span>
         </div>
         
-        <h3 className="text-xl font-bold text-gray-800 dark:bg-gray-900 text-gray-900 dark:text-white">{title}</h3>
-        <p className="text-blue-600 font-medium mb-4 dark:bg-gray-900 text-gray-900 dark:text-white">{company}</p>
+        <h3 className="text-xl font-bold text-gray-800">{title}</h3>
+        <p className="text-blue-600 font-medium mb-4">{company}</p>
         
-        <ul className="space-y-2 dark:bg-gray-900 text-gray-900 dark:text-white">
+        <ul className="space-y-2">
           {description.map((item, i) => (
             <li key={i} className="flex items-start gap-2">
               <div className="min-w-2 h-2 rounded-full bg-blue-500 mt-2"></div>
@@ -87,7 +88,7 @@ const ExperienceSection = () => {
   ];
 
   return (
-    <section id="experience" ref={sectionRef} className="section-padding bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white">
+    <section id="experience" ref={sectionRef} className="section-padding bg-gray-50">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold mb-4 reveal">Work Experience</h2>
@@ -102,7 +103,7 @@ const ExperienceSection = () => {
           {/* Central timeline line - only visible on lg screens */}
           <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-blue-200 transform -translate-x-1/2"></div>
           
-          <div className="space-y-24 dark:bg-gray-900 text-gray-900 dark:text-white">
+          <div className="space-y-24">
             {experiences.map((exp, index) => (
               <div key={index} className={`lg:flex ${index % 2 === 0 ? 'lg:justify-start' : 'lg:justify-end'}`}>
                 <div className="lg:w-5/12">

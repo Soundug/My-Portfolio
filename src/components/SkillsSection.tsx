@@ -11,7 +11,7 @@ interface SkillCategoryProps {
 
 const SkillCategory = ({ title, skills, icon, className }: SkillCategoryProps) => (
   <div className={`skill-card reveal ${className}`}>
-    <div className="flex items-center gap-3 mb-4 dark:bg-gray-900 text-gray-900 dark:text-white">
+    <div className="flex items-center gap-3 mb-4">
       <div className="text-blue-600">{icon}</div>
       <h3 className="text-xl font-semibold">{title}</h3>
     </div>
@@ -73,7 +73,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section id="skills" ref={sectionRef} className="section-padding bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white">
+    <section id="skills" ref={sectionRef} className="section-padding bg-gray-50">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold mb-4 reveal">My Skills</h2>
@@ -84,7 +84,7 @@ const SkillsSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 dark:bg-gray-900 text-gray-900 dark:text-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skillsData.map((category, index) => (
             <SkillCategory 
               key={index}
