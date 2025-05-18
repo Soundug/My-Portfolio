@@ -83,21 +83,21 @@ const ProjectsSection = () => {
     {
       title: "Blender Solar Panel VR Simulation",
       description: "Designed and developed a 3D solar panel simulation using Blender, demonstrating my 3D modeling and visualization skills aligned with VR/AR applications",
-      image: "images/ecoSolar_render1.png",
+      image: "/images/ecoSolar_render1.png",
       tags: ["Blender", "HTML5 Canvas", "Virtual Reality"],
       github: "https://github.com/Soundug/ecoSolar_Blender_Demo"
     },
     {
       title: "Frontend Portfolio Website",
       description: "A website-based resume that showcases my education, experience and projects.",
-      image: "animation.gif",
+      image: "/animation.gif",
       tags: ["HTML/Tailwind CSS", "React.js", "TypeScript", "UI/UX"],
       github: "https://github.com/Soundug/My-Portfolio",
     },
     {
       title: "E-commerce Webscraper",
       description: "A webscraper built using Python and selenium to pull data from ecommerce websites based on search keywords.",
-      image: "images/ecomm_webscraper.png",
+      image: "/images/ecomm_webscraper.png",
       tags: ["Python", "HTML/CSS", "BeautifulSoup", "requests", "Selenium"],
       github: "https://github.com/Soundug/Webscraper"
     }
