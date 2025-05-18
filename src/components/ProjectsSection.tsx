@@ -81,6 +81,13 @@ const ProjectsSection = () => {
 
   const projects = [
     {
+      title: "Global Migration Patterns Visualization",
+      description: "Interactive Streamlit dashboard with a 3D globe, choropleth map, and Sankey diagram, visualizing UN global migration data. Features include year slider, destination country selection, and animated views.",
+      image: "/3Dglobe.png",
+      tags: ["Python", "Streamlit", "Pydeck", "Plotly", "Data Visualization"],
+      github: "https://github.com/Soundug/GlobalMigrationVis", // your real repo link
+    },
+    {
       title: "Blender Solar Panel VR Simulation",
       description: "Designed and developed a 3D solar panel simulation using Blender, demonstrating my 3D modeling and visualization skills aligned with VR/AR applications",
       image: "/ecoSolar_render1.png",
